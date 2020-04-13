@@ -1,0 +1,9 @@
+Contenu dictionnaire pour hugo1.txt : 
+je (1,1) (1,4) (1,21) (2,20)
+pas (1,17) (1,30) (2,29) (2,38)
+sans (2,1) (2,33)
+faner (1,24) (2,6) (2,23)
+ecouter (2,12)
+branches (2,42)
+laisserai (1,7)
+pervenches (1,34)

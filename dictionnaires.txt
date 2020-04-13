@@ -1,0 +1,2 @@
+Contenu dictionnaire pour hugo1.txt : 
+thomas (1,1)

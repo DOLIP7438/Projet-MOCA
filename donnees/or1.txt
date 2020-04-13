@@ -1,0 +1,6 @@
+Contenu dictionnaire pour hugo1.txt : 
+a (1,7)
+azer (2,1)
+b (1,3) (2,8)
+e (1,5)
+z (1,1) (2,6)

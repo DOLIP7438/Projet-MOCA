@@ -1,0 +1,180 @@
+==14383== Memcheck, a memory error detector
+==14383== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==14383== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==14383== Command: ./main donnees/hugo.txt
+==14383== Parent PID: 14312
+==14383== 
+==14383== Conditional jump or move depends on uninitialised value(s)
+==14383==    at 0x483DF49: strlen (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14383==    by 0x10D09A: compareWord (wordFunc.c:109)
+==14383==    by 0x10C122: insertDico (dico.c:43)
+==14383==    by 0x10C31C: addToDico (dico.c:75)
+==14383==    by 0x10C89A: main (main.c:48)
+==14383== 
+==14383== Conditional jump or move depends on uninitialised value(s)
+==14383==    at 0x483DF58: strlen (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14383==    by 0x10D0A9: compareWord (wordFunc.c:109)
+==14383==    by 0x10C122: insertDico (dico.c:43)
+==14383==    by 0x10C31C: addToDico (dico.c:75)
+==14383==    by 0x10C89A: main (main.c:48)
+==14383== 
+==14383== Conditional jump or move depends on uninitialised value(s)
+==14383==    at 0x483DF49: strlen (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14383==    by 0x10D0BA: compareWord (wordFunc.c:109)
+==14383==    by 0x10C122: insertDico (dico.c:43)
+==14383==    by 0x10C31C: addToDico (dico.c:75)
+==14383==    by 0x10C89A: main (main.c:48)
+==14383== 
+==14383== Conditional jump or move depends on uninitialised value(s)
+==14383==    at 0x483DF49: strlen (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14383==    by 0x10D1C9: compareWord (wordFunc.c:116)
+==14383==    by 0x10C122: insertDico (dico.c:43)
+==14383==    by 0x10C31C: addToDico (dico.c:75)
+==14383==    by 0x10C89A: main (main.c:48)
+==14383== 
+==14383== Conditional jump or move depends on uninitialised value(s)
+==14383==    at 0x483DF58: strlen (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14383==    by 0x10D1D8: compareWord (wordFunc.c:116)
+==14383==    by 0x10C122: insertDico (dico.c:43)
+==14383==    by 0x10C31C: addToDico (dico.c:75)
+==14383==    by 0x10C89A: main (main.c:48)
+==14383== 
+==14383== Conditional jump or move depends on uninitialised value(s)
+==14383==    at 0x483DF58: strlen (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14383==    by 0x10D09A: compareWord (wordFunc.c:109)
+==14383==    by 0x10C122: insertDico (dico.c:43)
+==14383==    by 0x10C31C: addToDico (dico.c:75)
+==14383==    by 0x10C89A: main (main.c:48)
+==14383== 
+==14383== Conditional jump or move depends on uninitialised value(s)
+==14383==    at 0x483DF58: strlen (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14383==    by 0x10D0DC: compareWord (wordFunc.c:109)
+==14383==    by 0x10C122: insertDico (dico.c:43)
+==14383==    by 0x10C31C: addToDico (dico.c:75)
+==14383==    by 0x10C89A: main (main.c:48)
+==14383== 
+==14383== Conditional jump or move depends on uninitialised value(s)
+==14383==    at 0x483DF58: strlen (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14383==    by 0x10D0BA: compareWord (wordFunc.c:109)
+==14383==    by 0x10C122: insertDico (dico.c:43)
+==14383==    by 0x10C31C: addToDico (dico.c:75)
+==14383==    by 0x10C89A: main (main.c:48)
+==14383== 
+==14383== Conditional jump or move depends on uninitialised value(s)
+==14383==    at 0x483DF58: strlen (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14383==    by 0x10D09A: compareWord (wordFunc.c:109)
+==14383==    by 0x10C16B: insertDico (dico.c:52)
+==14383==    by 0x10C31C: addToDico (dico.c:75)
+==14383==    by 0x10C89A: main (main.c:48)
+==14383== 
+==14383== Conditional jump or move depends on uninitialised value(s)
+==14383==    at 0x483DF58: strlen (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14383==    by 0x10D0A9: compareWord (wordFunc.c:109)
+==14383==    by 0x10C16B: insertDico (dico.c:52)
+==14383==    by 0x10C31C: addToDico (dico.c:75)
+==14383==    by 0x10C89A: main (main.c:48)
+==14383== 
+==14383== Conditional jump or move depends on uninitialised value(s)
+==14383==    at 0x483DF58: strlen (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14383==    by 0x10D0BA: compareWord (wordFunc.c:109)
+==14383==    by 0x10C16B: insertDico (dico.c:52)
+==14383==    by 0x10C31C: addToDico (dico.c:75)
+==14383==    by 0x10C89A: main (main.c:48)
+==14383== 
+==14383== Conditional jump or move depends on uninitialised value(s)
+==14383==    at 0x483DF58: strlen (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14383==    by 0x10D0DC: compareWord (wordFunc.c:109)
+==14383==    by 0x10C16B: insertDico (dico.c:52)
+==14383==    by 0x10C31C: addToDico (dico.c:75)
+==14383==    by 0x10C89A: main (main.c:48)
+==14383== 
+==14383== Conditional jump or move depends on uninitialised value(s)
+==14383==    at 0x483DF58: strlen (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14383==    by 0x10D1C9: compareWord (wordFunc.c:116)
+==14383==    by 0x10C122: insertDico (dico.c:43)
+==14383==    by 0x10C31C: addToDico (dico.c:75)
+==14383==    by 0x10C89A: main (main.c:48)
+==14383== 
+==14383== Conditional jump or move depends on uninitialised value(s)
+==14383==    at 0x483DF58: strlen (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14383==    by 0x10D201: compareWord (wordFunc.c:116)
+==14383==    by 0x10C122: insertDico (dico.c:43)
+==14383==    by 0x10C31C: addToDico (dico.c:75)
+==14383==    by 0x10C89A: main (main.c:48)
+==14383== 
+==14383== Conditional jump or move depends on uninitialised value(s)
+==14383==    at 0x483DF58: strlen (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14383==    by 0x10D210: compareWord (wordFunc.c:116)
+==14383==    by 0x10C122: insertDico (dico.c:43)
+==14383==    by 0x10C31C: addToDico (dico.c:75)
+==14383==    by 0x10C89A: main (main.c:48)
+==14383== 
+==14383== Conditional jump or move depends on uninitialised value(s)
+==14383==    at 0x483DF58: strlen (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14383==    by 0x10D1C9: compareWord (wordFunc.c:116)
+==14383==    by 0x10C16B: insertDico (dico.c:52)
+==14383==    by 0x10C31C: addToDico (dico.c:75)
+==14383==    by 0x10C89A: main (main.c:48)
+==14383== 
+==14383== Conditional jump or move depends on uninitialised value(s)
+==14383==    at 0x483DF58: strlen (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14383==    by 0x10D1D8: compareWord (wordFunc.c:116)
+==14383==    by 0x10C16B: insertDico (dico.c:52)
+==14383==    by 0x10C31C: addToDico (dico.c:75)
+==14383==    by 0x10C89A: main (main.c:48)
+==14383== 
+==14383== Conditional jump or move depends on uninitialised value(s)
+==14383==    at 0x483DF58: strlen (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14383==    by 0x10D201: compareWord (wordFunc.c:116)
+==14383==    by 0x10C16B: insertDico (dico.c:52)
+==14383==    by 0x10C31C: addToDico (dico.c:75)
+==14383==    by 0x10C89A: main (main.c:48)
+==14383== 
+==14383== Conditional jump or move depends on uninitialised value(s)
+==14383==    at 0x483DF58: strlen (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14383==    by 0x10D210: compareWord (wordFunc.c:116)
+==14383==    by 0x10C16B: insertDico (dico.c:52)
+==14383==    by 0x10C31C: addToDico (dico.c:75)
+==14383==    by 0x10C89A: main (main.c:48)
+==14383== 
+==14383== Conditional jump or move depends on uninitialised value(s)
+==14383==    at 0x10D3D5: incWord (wordFunc.c:146)
+==14383==    by 0x10C1AB: insertDico (dico.c:53)
+==14383==    by 0x10C31C: addToDico (dico.c:75)
+==14383==    by 0x10C89A: main (main.c:48)
+==14383== 
+==14383== Conditional jump or move depends on uninitialised value(s)
+==14383==    at 0x483DF49: strlen (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14383==    by 0x48EFDC8: fputs (iofputs.c:33)
+==14383==    by 0x10CB51: displayWord (wordFunc.c:42)
+==14383==    by 0x10C4D8: displayDico (dico.c:95)
+==14383==    by 0x10C8DE: main (main.c:50)
+==14383== 
+==14383== Conditional jump or move depends on uninitialised value(s)
+==14383==    at 0x483DF58: strlen (in /usr/lib/x86_64-linux-gnu/valgrind/vgpreload_memcheck-amd64-linux.so)
+==14383==    by 0x48EFDC8: fputs (iofputs.c:33)
+==14383==    by 0x10CB51: displayWord (wordFunc.c:42)
+==14383==    by 0x10C4D8: displayDico (dico.c:95)
+==14383==    by 0x10C8DE: main (main.c:50)
+==14383== 
+==14383== Conditional jump or move depends on uninitialised value(s)
+==14383==    at 0x10CBE1: displayWord (wordFunc.c:45)
+==14383==    by 0x10C4D8: displayDico (dico.c:95)
+==14383==    by 0x10C8DE: main (main.c:50)
+==14383== 
+==14383== 
+==14383== HEAP SUMMARY:
+==14383==     in use at exit: 32,411 bytes in 4,030 blocks
+==14383==   total heap usage: 4,052 allocs, 22 frees, 47,090 bytes allocated
+==14383== 
+==14383== LEAK SUMMARY:
+==14383==    definitely lost: 25,347 bytes in 3,686 blocks
+==14383==    indirectly lost: 6,576 bytes in 343 blocks
+==14383==      possibly lost: 0 bytes in 0 blocks
+==14383==    still reachable: 488 bytes in 1 blocks
+==14383==         suppressed: 0 bytes in 0 blocks
+==14383== Rerun with --leak-check=full to see details of leaked memory
+==14383== 
+==14383== Use --track-origins=yes to see where uninitialised values come from
+==14383== For lists of detected and suppressed errors, rerun with: -s
+==14383== ERROR SUMMARY: 5496 errors from 23 contexts (suppressed: 0 from 0)
