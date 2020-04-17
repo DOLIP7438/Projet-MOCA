@@ -1,7 +1,5 @@
 ###############################################################################
-#	Compiler bibliotheque statique -> make LIBS=s
 #	Compiler bibliotheque dynamique -> make LIBS=d
-#	Par default, compile avec fichier locaux
 #	Rajouter TEST=1 dans la commande pour compiler (En dynamique) avec les tests 
 #	AFL source ~mounlaur/installe_afl.sh
 # 	export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:./my_lib

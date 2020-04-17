@@ -4,6 +4,7 @@ selection(){
 	echo "#	   -AFL	    	-Valgrind	#"
 	echo "#	   -ASan    	-Klee    	#"
 	echo "#	   -Test_Unit   -ALL	 	#"
+	echo "#    -Gcov        -Profiling  #"
 	echo "#		  -Quit		 	#"
 	echo "#########################################"
 	echo
@@ -45,11 +46,27 @@ Valgrind_prog(){
 }
 
 ASan_prog(){
-	echo "a faire ASan"
+	make clean
+	make LIBS=d ASAN=1
 }
 
 Klee_prog(){
 	echo "a faire Klee"
+}
+Gcov_prog(){
+	make clean
+	make LIBS=d COV=1
+	make rungcov
+
+}
+profile_prog(){
+	make clean
+	echo "Selectionnez un nom de fichier :"
+	echo "-------------------------------------------------------------------------------------------------------------------------------------------------"
+	ls donnees
+	echo "-------------------------------------------------------------------------------------------------------------------------------------------------"
+	read fichier
+	make PROF=1 texte=$fichier
 }
 Test_unitaire(){
 	make clean
@@ -104,6 +121,12 @@ do
 		;;
 		Test_Unit)
 			Test_unitaire
+		;;
+		Gcov)
+			Gcov_prog
+		;;
+		Profiling)
+			profile_prog
 		;;
 		ALL)
 			All_prog
