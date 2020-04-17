@@ -1,17 +1,3 @@
-###############################################################################
-#	Compiler bibliotheque dynamique -> make LIBS=d
-#	Rajouter TEST=1 dans la commande pour compiler (En dynamique) avec les tests 
-#	AFL source ~mounlaur/installe_afl.sh
-# 	export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:./my_lib
-#	COV=1 pour test couverture
-#	make rungcov pour lancer gcov
-#	AFL=1 pour le fuzzing
-#	Pour Klee, source ~monniaud/env.sh dans le terminal
-#	KLEE=1 pour utliser KLEE
-#	ASAN=1 pour utiliser ASAN et il faut lancer en dynamique
-#	Pour le lancer en mode debug DEBUG=1
-###############################################################################
-
 INCLUDEDIR_1=my_header
 SRCDIR=my_src
 OBJDIR=my_obj
